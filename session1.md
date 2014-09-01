@@ -13,7 +13,7 @@ Java es un lenguaje de programación de alto nivel desarrollado por Sun Microsys
 Java posee diferentes versiones que pueden ser usadas dependiendo de la plataforma de desarrollo. Tales como Java SE (Standard Edition), Java EE (Enterprise Edition) and Java ME (Micro Edition). Java garantiza ser **escrito una vez, ejecutado donde sea**.
 
 
-Caracterísiticas
+Características
 --
 
 * **Orientado a objetos:** En Java, todo es un Objeto.
@@ -46,8 +46,6 @@ Setup
 
 Herramientas que necesitamos:
 
-Sesión 8: [Conceptos básicos de programación (Episodio II)](https://github.com/codificadas/baby-steps/blob/master/session_8.md)
-
 * Editor de textos: [Descarga Textmate aquí](http://www.sublimetext.com/)
 
 * Java! [Descarga e instala Java aquí](http://www.java.com/en/download/help/download_options.xml)
@@ -62,14 +60,14 @@ Probemos si funcionó!
 
 3. Copiar el siguiente código de Java:
 
-```bash
-public class MiPrimerPrograma {
+    ```bash
+    public class MiPrimerPrograma {
 
-    public static void main(String []args) {
-       System.out.println("Hola Javaficadas!");
+        public static void main(String []args) {
+           System.out.println("Hola Javaficadas!");
+        }
     }
-}
-```
+    ```
 
 4. Guardar el archivo: nombre **MiPrimerPrograma.java**
 
@@ -81,16 +79,16 @@ public class MiPrimerPrograma {
 
 6. Ahora necesitamos compilar nuestro código, para eso usaremos el comando **javac**
 
-```bash
-javac MiPrimerPrograma.java
-```
+    ```bash
+    javac MiPrimerPrograma.java
+    ```
 7. Ahora que nuestro programa está compilado hacemos un **ls** y veremos que se ha generado un archivo llamado **MiPrimerPrograma.class**
 
 8. Para ejecutar nuestro programa usamos el comando **java**
 
-```bash
-java MiPrimerPrograma
-```
+    ```bash
+    java MiPrimerPrograma
+    ```
 
 9. Y debemos ver nuestro mensaje: **Hola Javaficadas!**
 
