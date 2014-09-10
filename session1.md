@@ -22,7 +22,7 @@ Características
 
 * **Simple:** Java está diseñado para ser fácil de aprender. Si entiendes el concepto básico de POO, Java te será fácil de dominar.
 
-* **Seguro:** Con la característica de seguridad de Java que permite desarrollar sistemas de manipulación libres libres de virus. Técnicas de autenticación se basan en el cifrado de clave pública.
+* **Seguro:** Con la característica de seguridad de Java que permite desarrollar sistemas de manipulación libres de virus. Técnicas de autenticación se basan en el cifrado de clave pública.
 
 * **Arquitectura neutral:** El compilador de Java genera un formato de archivo de arquitectura neutral que hace que el código compilado sea ejecutable en muchos procesadores, con la presencia del sistema de ejecución de Java.
 
@@ -46,7 +46,7 @@ Setup
 
 Herramientas que necesitamos:
 
-* Editor de textos: [Descarga Textmate aquí](http://www.sublimetext.com/)
+* Editor de textos: [Descarga Sublime aquí](http://www.sublimetext.com/)
 
 * Java! [Descarga e instala Java aquí](http://www.java.com/en/download/help/download_options.xml)
 
