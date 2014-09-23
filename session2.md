@@ -1,15 +1,15 @@
 Sintaxis básica de Java
 ===
 
-En esta sesión hablaremos de manera general sobre la sintaxis básica del lenguaje, qué podemos usar?, qué no?, consideraciones y buenas prácticas para la hora de escribir programas.
+En esta sesión hablaremos de manera general sobre la sintaxis básica del lenguaje; qué podemos usar?, qué no?, consideraciones y buenas prácticas para la hora de escribir programas.
 
 
 Objetos, clases, métodos, variables de instancia
 --
 
-* **Objeto:** los objetos tienen características y comportamientos. Ejemplo: Un perro tiene como características - color, nombre así como comportamientos - ladrar, comer, etc. Un objeto es una instancia de una clase.
+* **Objeto:** los objetos tienen características y comportamientos. Ejemplo: Un perro tiene como características - color y nombre, así como comportamientos - ladrar, comer, etc. Un objeto es una instancia de una clase.
 
-* **Clase:** Una clase puede ser definida como una plantilla, que describe los comportamientos y características que objetos de su tipo soportan.
+* **Clase:** Una clase puede ser definida como una plantilla que describe los comportamientos y características que objetos de su tipo soportan.
 
 * **Métodos:** Un método es básicamente un comportamiento. Una clase puede contener muchos métodos. Es en los métodos donde se escribe la lógica, los datos son manipulados y las acciones son ejecutadas.
 
@@ -170,7 +170,7 @@ public class FreshJuiceTest {
 Palabras reservadas (keywords)
 --
 
-La siguiente lista muestra las palabras reservadas en Java. Estas palabras reservadas no pueden ser usadas como constantes o variables o cualquier otro nombre de indentificador.
+La siguiente lista muestra las palabras reservadas en Java. Estas palabras reservadas no pueden ser usadas como constantes o variables o cualquier otro nombre de identificador.
 
 |        |            |         |          |
 |---     |---         |---      |---       |
@@ -222,4 +222,4 @@ Interfaces
 
 En Java, una interfaz puede definirse como un contrato entre o objetos sobre cómo se comunican entre ellos. Las interfaces juegan un rol vital cuanto viene el concepto de herencia.
 
-Una interfaz define los métodos, debe usar una clase derivada (subclase). Pero la implementación de los métodos es totalmente parte de la subclase.
+Una interfaz define los métodos, ésta debe usar una clase derivada (subclase). La implementación de los métodos es totalmente parte de la subclase.
