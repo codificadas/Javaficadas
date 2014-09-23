@@ -7,13 +7,13 @@ En esta sesión hablaremos de manera general sobre la sintaxis básica del lengu
 Objetos, clases, métodos, variables de instancia
 --
 
-* Objeto: los objetos tienen características y comportamientos. Ejemplo: Un perro tiene como características - color, nombre así como comportamientos - ladrar, comer, etc. Un objeto es una instancia de una clase.
+* **Objeto:** los objetos tienen características y comportamientos. Ejemplo: Un perro tiene como características - color, nombre así como comportamientos - ladrar, comer, etc. Un objeto es una instancia de una clase.
 
-* Clase: Una clase puede ser definida como una plantilla, que describe los comportamientos y características que objetos de su tipo soportan.
+* **Clase:** Una clase puede ser definida como una plantilla, que describe los comportamientos y características que objetos de su tipo soportan.
 
-* Métodos: Un método es básicamente un comportamiento. Una clase puede contener muchos métodos. Es en los métodos donde se escribe la lógica, los datos son manipulados y las acciones son ejecutadas.
+* **Métodos:** Un método es básicamente un comportamiento. Una clase puede contener muchos métodos. Es en los métodos donde se escribe la lógica, los datos son manipulados y las acciones son ejecutadas.
 
-* Variables de instancia: Cada objeto tiene un único set de variables de instancia. Una característica del objeto es creado por el valor asignado a estas variables de instancia.
+* **Variables de instancia:** Cada objeto tiene un único set de variables de instancia. Una característica del objeto es creado por el valor asignado a estas variables de instancia.
 
 
 Análisis de MiPrimerPrograma
@@ -69,27 +69,27 @@ Sintaxis básica de Java
 
 En relación a los programas de Java, es muy importante tener en cuenta los siguientes puntos:
 
-* Case Sensitivity - Java es sensible a mayúsculas y minúsculas, lo que significa que el identificador Hello y hello tendrían diferente significado en Java.
+* **Case Sensitivity** - Java es sensible a mayúsculas y minúsculas, lo que significa que el identificador Hello y hello tendrían diferente significado en Java.
 
-* Class Names - La primer letra de los nombres de clases debe ser mayúscula. Si se utilizará más de una palabra para nombrar una clase, cada palabra deberá iniciar en mayúscula.
+* **Class Names** - La primer letra de los nombres de clases debe ser mayúscula. Si se utilizará más de una palabra para nombrar una clase, cada palabra deberá iniciar en mayúscula.
 
     ```bash
     Example class MiPrimerPrograma
     ```
 
-* Method Names - Todos los nombres de métodos deben iniciar con una letra minúscula. Si se utilizará más de una palabra para nombrar una clase, cada palabra deberá iniciar en mayúscula luego de la primera.
+* **Method Names** - Todos los nombres de métodos deben iniciar con una letra minúscula. Si se utilizará más de una palabra para nombrar una clase, cada palabra deberá iniciar en mayúscula luego de la primera.
 
     ```bash
     Example public void myMethodName()
     ```
 
-* Program File Name - El nombre del archivo que contiente tu programa debe ser exactamente igual a como nombraste la clase. Cuando lo guardes, debes guardarlo usando el nombre de la clase (Recuera que Java es case sensitive) y ponle '.java' al final del nombre (si el nombre del archivo y el de la clase no coinciden, tu programa no podrá compilar).
+* **Program File Name** - El nombre del archivo que contiente tu programa debe ser exactamente igual a como nombraste la clase. Cuando lo guardes, debes guardarlo usando el nombre de la clase (Recuera que Java es case sensitive) y ponle '.java' al final del nombre (si el nombre del archivo y el de la clase no coinciden, tu programa no podrá compilar).
 
     ```bash
     Example : Si 'MiPrimerPrograma' es el nombre de la clase. Entonces el archivo deberá ser guardado como 'MiPrimerPrograma.java'
     ```
 
-* public static void main(String args[]) - Java inicia su proceso de ejecución desde el método main() el cual es obligatoriamente parte de cada programa de Java.
+* **public static void main(String args[])** - Java inicia su proceso de ejecución desde el método main() el cual es obligatoriamente parte de cada programa de Java.
 
 Identificadores
 --
