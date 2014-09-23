@@ -7,13 +7,13 @@ En esta sesión hablaremos de manera general sobre la sintaxis básica del lengu
 Objetos, clases, métodos, variables de instancia
 --
 
-    * Objeto: los objetos tienen características y comportamientos. Ejemplo: Un perro tiene como características - color, nombre así como comportamientos - ladrar, comer, etc. Un objeto es una instancia de una clase.
+* Objeto: los objetos tienen características y comportamientos. Ejemplo: Un perro tiene como características - color, nombre así como comportamientos - ladrar, comer, etc. Un objeto es una instancia de una clase.
 
-    * Clase: Una clase puede ser definida como una plantilla, que describe los comportamientos y características que objetos de su tipo soportan.
+* Clase: Una clase puede ser definida como una plantilla, que describe los comportamientos y características que objetos de su tipo soportan.
 
-    * Métodos: Un método es básicamente un comportamiento. Una clase puede contener muchos métodos. Es en los métodos donde se escribe la lógica, los datos son manipulados y las acciones son ejecutadas.
+* Métodos: Un método es básicamente un comportamiento. Una clase puede contener muchos métodos. Es en los métodos donde se escribe la lógica, los datos son manipulados y las acciones son ejecutadas.
 
-    * Variables de instancia: Cada objeto tiene un único set de variables de instancia. Una característica del objeto es creado por el valor asignado a estas variables de instancia.
+* Variables de instancia: Cada objeto tiene un único set de variables de instancia. Una característica del objeto es creado por el valor asignado a estas variables de instancia.
 
 
 Análisis de MiPrimerPrograma
@@ -116,9 +116,9 @@ Modificadores
 
 Como con otros lenguajes, es posible modificar clases, métodos, etc. usando modificadores. Hay 2 categorías:
 
-Modificadores de acceso: default, public , protected, private
+* Modificadores de acceso: default, public , protected, private
 
-Modificadores de no acceso: final, abstract, strictfp
+* Modificadores de no acceso: final, abstract, strictfp
 
 Los vemos luego a detalle.
 
@@ -150,28 +150,30 @@ Por ejemplo, si consideramos una aplicación para una tienda de jugos, sería po
 
 Ejemplo
 
-    ```bash
-    class FreshJuice {
+```bash
+class FreshJuice {
 
-       enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
-       FreshJuiceSize size;
-    }
+   enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+   FreshJuiceSize size;
+}
 
-    public class FreshJuiceTest {
+public class FreshJuiceTest {
 
-       public static void main(String args[]){
-          FreshJuice juice = new FreshJuice();
-          juice.size = FreshJuice. FreshJuiceSize.MEDIUM ;
-          System.out.println("Size: " + juice.size);
-       }
-    }
-    ```
+   public static void main(String args[]){
+      FreshJuice juice = new FreshJuice();
+      juice.size = FreshJuice. FreshJuiceSize.MEDIUM ;
+      System.out.println("Size: " + juice.size);
+   }
+}
+```
 
 Palabras reservadas (keywords)
 --
 
 La siguiente lista muestra las palabras reservadas en Java. Estas palabras reservadas no pueden ser usadas como constantes o variables o cualquier otro nombre de indentificador.
 
+|        |            |         |          |
+|---     |---         |---      |---       |
 |abstract|assert      |boolean  |break     |
 |byte    |case        |catch    |char      |
 |class   |const       |continue |default   |
