@@ -223,3 +223,9 @@ Interfaces
 En Java, una interfaz puede definirse como un contrato entre o objetos sobre cómo se comunican entre ellos. Las interfaces juegan un rol vital cuanto viene el concepto de herencia.
 
 Una interfaz define los métodos, ésta debe usar una clase derivada (subclase). La implementación de los métodos es totalmente parte de la subclase.
+
+
+Slides
+--
+
+[Sintaxis básica de Java](https://www.haikudeck.com/javaficadas-education-presentation-7Pimz72zw1)
