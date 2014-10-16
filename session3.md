@@ -1,7 +1,7 @@
 Aprendamos a definir clases para crear objetos!
 ==
 
-En esta sesión retomamos algunos conceptos para explicarlos en código de Java. Iniciamos esta sesión definiendo una vez más que es una **clase** y un **objeto**:
+En esta sesión retomamos algunos conceptos para explicarlos en código de Java. Iniciamos esta sesión definiendo una vez más que son las **clases** y los **objetos**:
 
 Clases
 --
