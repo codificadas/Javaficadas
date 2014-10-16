@@ -8,8 +8,8 @@ Clases
 
 Es el molde/plantilla a partir de la cual podemos crear objetos.
 
-Ejemplo de la definición de una clase
---
+**Ejemplo de la definición de una clase**
+
 
 ```bash
 public class Perro{
@@ -35,13 +35,13 @@ public class Perro{
 Variables locales, variables de instancia y variables de clase
 --
 
-* Variables locales: están definidas sólo en ciertos bloques de código, y sólo pueden ser usadas en esa sección del código.
+* **Variables locales:** están definidas sólo en ciertos bloques de código, y sólo pueden ser usadas en esa sección del código.
 
-* Variables de instancia: están definidas como parte de la clase/plantilla y se llaman así porque al crear un objeto, se hace una instancia de la clase, esto quiere decir que se crea como una copia de estas variables por cada objeto definido/creado.
+* **Variables de instancia:** están definidas como parte de la clase/plantilla y se llaman así porque al crear un objeto, se hace una instancia de la clase, esto quiere decir que se crea como una copia de estas variables por cada objeto definido/creado.
 
-* Variables de clase: están definidas en la clase, pero no dependen de un objeto en particular para ser usadas. Usadas para definir constantes, esas variables que no cambian su valor durante la ejecución del programa.
+* **Variables de clase:** están definidas en la clase, pero no dependen de un objeto en particular para ser usadas. Usadas para definir constantes, esas variables que no cambian su valor durante la ejecución del programa.
 
-Ejemplo:
+**Ejemplo:**
 
 ```bash
 
@@ -113,7 +113,6 @@ Ejemplo:
 ```bash
 
 Area figura1 = new Area();
-
 ```
 
 Acceso a variables de instancia y métodos
@@ -132,7 +131,9 @@ figura1.calcularArea(); //Acceso al método **calcularArea()**
 Ejercicios
 --
 
-Hicimos un pequeño ejercicio para imprimir en los valores de una variables, practiquen modificando los programas que ya tenemos, agreguen variables, traten de imprimirlas, agreguen commentarios, compilen, ejecuten, resuelvan errores.
+Hicimos un pequeño ejercicio para imprimir en los valores de una variables.
+
+Practiquen modificando los programas que ya tenemos, agreguen variables, traten de imprimirlas, agreguen commentarios, compilen, ejecuten, resuelvan errores.
 Todo es cuestion de práctica.
 
 ```bash
