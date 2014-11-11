@@ -58,13 +58,15 @@ Operadores lógicos
 Estos son los operadores lógicos soportados por Java:
 
 Crea una variable A = true y una variable B = false, entonces:
+
 0 = false
+
 1 = true
 
 |Operador |Descripción                                                                                                                                                      |Ejemplo                |
 |---      |---                                                                                                                                                              |---                    |
 |&&       |Llamado operador lógico AND. Si ambos operandos son true, entonces la condición se convierte en true.                                                            |(A && B) es false.     |
-|||       |Llamado operador lógico OR. Si cualquiera de los dos operandos es true, entonces la condición se convierte en true.                                              |(A || B) es true.      |
+|(||)     |Llamado operador lógico OR. Si cualquiera de los dos operandos es true, entonces la condición se convierte en true.                                              |(A || B) es true.      |
 |!        |Llamado Operador lógico NOT. Se utiliza para inviertir el estado lógico de su operando. Si una condición es true entonces el operador lógico NOT evaluará false. |!(A && B) is true.     |
 
 
