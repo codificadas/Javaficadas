@@ -74,14 +74,14 @@ Operadores de Asignación
 --
 Estos son los operadores lógicos soportados por Java:
 
-|Operador |Descripción                                                                                                                                                      |Ejemplo                |
-|---      |---                                                                                                                                                              |---                    |
-|=        |Operador de asignación simple - asigna valores de operandos desde el lado derecho para el operando del lado izquierdo                                            |(A == B) no es true.   |
-|+=       |Suma + operador de asignación - añade el valor del operando derecho al operando de la izquierda y asigna el resultado al operando de la izquierda                |(A != B) es true.      |
-|-=       |Resta + operador de asignación - resta el valor del operando derecho al operando de la izquierda y asigna el resultado al operando de la izquierda               |(A > B) no es true.    |
-|*=	      |Multiplicación + operador de asignación - multiplica el valor del operando derecho al operando de la izquierda y asigna el resultado al operando de la izquierda |(A < B) es true.       |
-|/=       |Divición + operador de asignación - divide el valor del operando izquierdo al operando de la derecha y asigna el resultado al operando de la izquierda           |(A >= B) no es true.   |
-|%= 	  |Modulo + operador de asignación - toma el módulo usando dos operadores y asigna el resultado al operando de la izquierda                                         |(A <= B) es true.      |
+|Operador |Descripción                                                                                                                                                      |Ejemplo                                    |
+|---      |---                                                                                                                                                              |---                                        |
+|=        |Operador de asignación simple - asigna valores de operandos desde el lado derecho para el operando del lado izquierdo                                            |C = A + B se asignará el valor de A + B a C|
+|+=       |Suma + operador de asignación - añade el valor del operando derecho al operando de la izquierda y asigna el resultado al operando de la izquierda                |C += A es equivalente a C = C + A          |
+|-=       |Resta + operador de asignación - resta el valor del operando derecho al operando de la izquierda y asigna el resultado al operando de la izquierda               |C -= A es equivalente a C = C - A          |
+|*=	      |Multiplicación + operador de asignación - multiplica el valor del operando derecho al operando de la izquierda y asigna el resultado al operando de la izquierda |C *= A es equivalente a C = C * A          |
+|/=       |Divición + operador de asignación - divide el valor del operando izquierdo al operando de la derecha y asigna el resultado al operando de la izquierda           |C /= A es equivalente a C = C / A          |
+|%= 	  |Modulo + operador de asignación - toma el módulo usando dos operadores y asigna el resultado al operando de la izquierda                                         |C %= A es equivalente a C = C % A          |
 
 
 Jerarquía de Operadores
