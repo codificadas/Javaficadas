@@ -10,3 +10,5 @@ Sesión 2: [Sintaxis básica de Java](https://github.com/codificadas/Javaficadas
 Sesión 3: [Aprendamos a definir clases para crear objetos!](https://github.com/codificadas/Javaficadas/blob/master/session3.md)
 
 Sesión 4: [Tipos de datos, modificadores y variables!](https://github.com/codificadas/Javaficadas/blob/master/session4.md)
+
+Sesión 5: [Operadores básicos](https://github.com/codificadas/Javaficadas/blob/master/session5.md)
