@@ -148,7 +148,7 @@ Con el uso de enums es posible reducir el numero de bugs en tu código.
 
 Por ejemplo, si consideramos una aplicación para una tienda de jugos, sería posible restringir la medida del vaso a pequeño, mediano y grande. Esto aseguraría que no permitiría a nadie ordenar cualquier otro tamaño diferente a pequeño, mediano y grande.
 
-Ejemplo
+Ejemplos
 
 ```bash
 class FreshJuice {
@@ -166,6 +166,38 @@ public class FreshJuiceTest {
    }
 }
 ```
+
+```bash
+/*
+ * Un tipo enumerado restringe los posibles valores que puede tomar una variable
+ * Cada elemento de un enumerado es un objeto único disponible para su uso, por lo tanto podemos accesar a propiedades y métodos.
+ * Un tipo enumerado puede ser declarado dentro o fuera de una clase, pero no dentro de un método.
+ * Un enum no es un String por lo tanto si deseamos usarlos como tal debemos hacer la conversión: toString()
+ */
+
+public class Enumeradores {
+  enum TipoDeMadera { ROBLE, CAOBA, NOGAL, CEREZO, BOJ };
+  
+    public static void main(String[] args) {
+    //Imprimir todos los valores del enum usando el método values()
+       for (TipoDeMadera tmp: TipoDeMadera.values()) {
+        //  \t  usamos el tabulador para separar los valores 
+        System.out.print(tmp.toString()+"\t");   
+       } 
+       //accesando a las propiedades
+        TipoDeMadera maderaUsuario= TipoDeMadera.ROBLE;
+        System.out.println ("La madera elegida por el usuario es " + maderaUsuario.toString().toLowerCase() );
+        System.out.println ("¿Es la madera elegida por el usuario caoba? Resultado: " + (maderaUsuario==TipoDeMadera.CAOBA) );
+        System.out.println ("¿Es la madera elegida por el usuario roble? Resultado: " + (maderaUsuario==TipoDeMadera.ROBLE) );
+       
+       
+    }
+  
+}
+```
+
+
+
 
 Palabras reservadas (keywords)
 --
