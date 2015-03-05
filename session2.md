@@ -225,7 +225,7 @@ En Java, una interfaz puede definirse como un contrato entre o objetos sobre có
 Una interfaz define los métodos, ésta debe usar una clase derivada (subclase). La implementación de los métodos es totalmente parte de la subclase.
 
 
-Slidess
+Slides
 --
 
 [Sintaxis básica de Java](https://www.haikudeck.com/javaficadas-education-presentation-7Pimz72zw1)
