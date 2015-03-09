@@ -115,4 +115,4 @@ Investiguen un poco más sobre los conceptos vistos para que amplien su conocimi
 Slides
 --
 
-[Tipos de datos, modificadores y variables!](https://www.haikudeck.com/javaficadas-education-presentation-5xHCKLpOE8)
+[Tipos de datos, modificadores y variables!](https://www.haikudeck.com/copy-of-javaficadas-education-presentation-gEHBxhEnbG)
