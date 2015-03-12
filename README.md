@@ -12,3 +12,5 @@ Sesión 3: [Aprendamos a definir clases para crear objetos!](https://github.com/
 Sesión 4: [Tipos de datos, modificadores y variables!](https://github.com/codificadas/Javaficadas/blob/master/session4.md)
 
 Sesión 5: [Operadores básicos](https://github.com/codificadas/Javaficadas/blob/master/session5.md)
+
+Ejemplo: [Tipos de Datos](https://github.com/codificadas/Javaficadas/blob/master/DataType.md)
