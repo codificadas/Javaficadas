@@ -14,3 +14,9 @@ Sesión 4: [Tipos de datos, modificadores y variables!](https://github.com/codif
 Sesión 5: [Operadores básicos](https://github.com/codificadas/Javaficadas/blob/master/session5.md)
 
 Ejemplo: [Tipos de Datos](https://github.com/codificadas/Javaficadas/blob/master/DataType.md)
+
+Ejemplo: [Casting Type](https://github.com/codificadas/Javaficadas/blob/master/CastingType.md)
+
+Ejemplo: [Enum Simple](https://github.com/codificadas/Javaficadas/blob/master/SimpleEnum.md)
+
+Ejemplo: [Enum Detallado](https://github.com/codificadas/Javaficadas/blob/master/DetailEnum.md)
