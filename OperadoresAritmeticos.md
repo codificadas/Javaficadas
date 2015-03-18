@@ -1,12 +1,12 @@
 ```bash
 /*
- * las operaciones aritméticas básicas: 
+ * Las operaciones aritméticas básicas: 
  * suma (+), 
  * resta (-), 
  * multiplicación (*) 
  * división (/) y 
  * módulo (%) 
- * para datos de tipo numérico, tanto enteros como reales
+ * Para datos de tipo numérico, tanto enteros como reales
  */
 
   /*
@@ -69,7 +69,7 @@ public class Aritmeticos {
         System.out.println(z);*/
         
         
-       //Con los float no nos marca error pero como resultado se obtiene un Infinity. Tener cuidad con las divisiones
+       //Con los float no nos marca error pero como resultado se obtiene un Infinity. Tener cuidad con las divisiones con valor 0
         float x = 5.0f;
         float y = 0.0f;
         float z = x/y;
