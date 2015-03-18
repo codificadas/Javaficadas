@@ -123,3 +123,12 @@ Slides
 --
 
 [Operadores básicos](https://www.haikudeck.com/javaficadas-education-presentation-0DydKeC32R)
+
+Ejemplos
+--
+
+[Operadores Aritméticos](https://github.com/codificadas/Javaficadas/blob/master/OperadoresAritmeticos.md)
+[Operadores Relacionales](https://github.com/codificadas/Javaficadas/blob/master/OperadoresRelacionales.md)
+[Operadores Lógicos](https://github.com/codificadas/Javaficadas/blob/master/OperadoresLogicos.md)
+[Operadores Asignación](https://github.com/codificadas/Javaficadas/blob/master/OperadoresAsignacion.md)
+
