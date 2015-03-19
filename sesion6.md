@@ -62,6 +62,17 @@ switch (expresión){
       instrucciones;
 }
 ```
+
+Iterativa o repetitiva
+--
+La estructura condicional determina si se ejecutan unas instrucciones u otras según se cumpla o no una determinada condición.
+Existen dos estructuras condicionales.
+- for
+
+- while
+
+- Do while
+
 Slides
 --
 
