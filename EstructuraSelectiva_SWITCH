@@ -1,113 +1,69 @@
 ```bash
-/*
- * Se utiliza para seleccionar una de entre múltiples alternativas.
-switch (expresión){
-    case valor 1:
-    instrucciones;
-    break;
-    case valor 2:
-    instrucciones;
-    break;
-    · · ·
-    default:
-    instrucciones;
-}
- */
 package Estructuras_Control;
-
-import java.io.IOException;
 import java.util.Scanner;
 
 /**
- *
  * @author Edith
  */
 public class Condicional_Selectiva_switch {
-   //  public static void main(String[] args) {
+     public static void main(String[] args) {
         /*
         * Ejemplo 1 Programa que pide un número de mes y muestra el nombre correspondiente
         */
-  /*      int mes;
+       int mes;
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca un numero de mes: ");
         mes = sc.nextInt();
         switch (mes)
         {
-                case 1: System.out.println("ENERO");
-                           break;
+                case 1: 
+                    System.out.println("ENERO");
+                    break;
                 case 2: 
                     System.out.println("FEBRERO");
-                    System.out.print("Introduzca un dia: ");
+                    System.out.print("Introduzca un día: ");
                     int dia = sc.nextInt();
                     if(dia==10)
                     {
-                       System.out.print("Feliz cumpleaños!!!: "); 
+                       System.out.print("Feliz cumpleaños!!! :) "); 
                     }else{
-                       System.out.print("No es tu cumple: ");
+                       System.out.print("No es tu cumple :) ");
                     }
-                           break;
-                case 3: System.out.println("MARZO");
-                           break;
-                case 4: System.out.println("ABRIL");
-                           break;
-                case 5: System.out.println("MAYO");
-                           break;
-                case 6: System.out.println("JUNIO");
-                           break;
-                case 7: System.out.println("JULIO");
-                           break;
-                case 8: System.out.println("AGOSTO");
-                           break;
-                case 9: System.out.println("SEPTIEMBRE");
-                           break;
-                case 10: System.out.println("OCTUBRE");
-                             break;
-                case 11: System.out.println("NOVIEMBRE");
-                             break;
-                case 12: System.out.println("DICIEMBRE");
-                             break;
-                default : System.out.println("Mes no válido");                       
+                    break;
+                case 3: 
+                    System.out.println("MARZO");
+                    break;
+                case 4: 
+                    System.out.println("ABRIL");
+                    break;
+                case 5: 
+                    System.out.println("MAYO");
+                    break;
+                case 6: 
+                    System.out.println("JUNIO");
+                    break;
+                case 7: 
+                    System.out.println("JULIO");
+                    break;
+                case 8: 
+                    System.out.println("AGOSTO");
+                    break;
+                case 9: 
+                    System.out.println("SEPTIEMBRE");
+                    break;
+                case 10: 
+                    System.out.println("OCTUBRE");
+                    break;
+                case 11: 
+                    System.out.println("NOVIEMBRE");
+                    break;
+                case 12: 
+                    System.out.println("DICIEMBRE");
+                    break;
+                default : 
+                    System.out.println("Mes no válido");                       
         }
-        
-        
-        /*
-         *Ejemplo 2 Programa que pide dos números y un operador y muestra el resultado
-        */
-    //}
-     
-     
-      public static void main(String[] args) throws IOException{
-        int A,B, Resultado = 0 ;
-        char operador;
-        boolean calculado = true;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Introduzca un numero entero:");
-        A = sc.nextInt();
-        System.out.print("Introduzca otro numero entero:");
-        B = sc.nextInt();
-        System.out.print("Introduzca un operador (+,-,*,/):");
-        operador = (char)System.in.read();
-        switch (operador) {
-                case '-' : Resultado = A - B;
-                           break;
-                case '+' : Resultado = A + B;
-                           break;
-                case '*' : Resultado = A * B;
-                           break;
-                case '/' : if(B!=0)
-                              Resultado = A / B;
-                           else{
-                              System.out.println("\nNo se puede dividir por cero");
-                              calculado = false;
-                           }
-                           break;
-                default : System.out.println("\nOperador no valido");
-                          calculado = false;
-                         
-        }
-        if(calculado){
-            System.out.println("\nEl resultado es: " + Resultado);
-        }
+             
     }
 }
 
@@ -118,6 +74,5 @@ public class Condicional_Selectiva_switch {
        4.- Pedir un número del 1 al 12 y decir el nombre del mes correspondiente
        5.- Pedir un número e indicar si es positivo y menor que 100
 */
-
 
 ```
