@@ -65,21 +65,23 @@ switch (expresión){
 Slides
 --
 
-[Estructuras de control](https://www.haikudeck.com/javaficadas-education-presentation-0DydKeC32R)
+[Estructuras de control](https://www.haikudeck.com/javaficadas-education-presentation-SfsIP7LjoV)
 
 Ejemplos
 --
 
-[Estructura secuencial](https://github.com/codificadas/Javaficadas/blob/master/OperadoresAritmeticos.md)
+[Estructura secuencial](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
 
-[if simple](https://github.com/codificadas/Javaficadas/blob/master/OperadoresRelacionales.md)
+[if simple](https://github.com/codificadas/Javaficadas/blob/master/ifsimple.md)
 
-[if doble](https://github.com/codificadas/Javaficadas/blob/master/OperadoresLogicos.md)
+[if doble](https://github.com/codificadas/Javaficadas/blob/master/ifdoble.md)
 
-[if multiple](https://github.com/codificadas/Javaficadas/blob/master/OperadoresAsignacion.md)
+[if multiple](https://github.com/codificadas/Javaficadas/blob/master/ifmultiple.md)
 
-[if anidado](https://github.com/codificadas/Javaficadas/blob/master/OperadoresAsignacion.md)
+[if anidado](https://github.com/codificadas/Javaficadas/blob/master/ifanidado.md)
 
-[switch ejemplo 1](https://github.com/codificadas/Javaficadas/blob/master/OperadoresAsignacion.md)
+[if sustitución](https://github.com/codificadas/Javaficadas/blob/master/Ifsustitucion.md)
 
-[switch ejemplo 2](https://github.com/codificadas/Javaficadas/blob/master/OperadoresAsignacion.md)
+[switch ejemplo 1](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSelectiva_SWITCH.md)
+
+[switch ejemplo 2](https://github.com/codificadas/Javaficadas/blob/master/EstSwitch_showmessageDialog.md)
