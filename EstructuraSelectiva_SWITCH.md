@@ -21,6 +21,7 @@ public class Condicional_Selectiva_switch {
                     break;
                 case 2: 
                     System.out.println("FEBRERO");
+                    //podemos usar if dentro de un switch? claro que si.
                     System.out.print("Introduzca un día: ");
                     int dia = sc.nextInt();
                     if(dia==10)
