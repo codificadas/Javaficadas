@@ -110,4 +110,14 @@ public class Condicional_Selectiva_switch {
         }
     }
 }
+
+/*Ejercicios
+       1.- Pida la edad y decir si es mayor de edad
+       2.- Pedir un número del 1 al 7 y decir el día de la semana correspondiemte
+       3.- Determinar si un número es positivo o negativo
+       4.- Pedir un número del 1 al 12 y decir el nombre del mes correspondiente
+       5.- Pedir un número e indicar si es positivo y menor que 100
+*/
+
+
 ```
