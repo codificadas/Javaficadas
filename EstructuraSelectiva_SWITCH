@@ -35,7 +35,16 @@ public class Condicional_Selectiva_switch {
         {
                 case 1: System.out.println("ENERO");
                            break;
-                case 2: System.out.println("FEBRERO");
+                case 2: 
+                    System.out.println("FEBRERO");
+                    System.out.print("Introduzca un dia: ");
+                    int dia = sc.nextInt();
+                    if(dia==10)
+                    {
+                       System.out.print("Feliz cumpleaños!!!: "); 
+                    }else{
+                       System.out.print("No es tu cumple: ");
+                    }
                            break;
                 case 3: System.out.println("MARZO");
                            break;
