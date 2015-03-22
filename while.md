@@ -52,5 +52,7 @@ Otros ejercicios
 7.- Mostrar los múltiplos de 8 hasta el valor 500. Debe aparecer en pantalla 8 - 16 - 24, etc.
 
 8.- Desarrollar un programa que permita cargar n números enteros y luego nos informe cuántos valores fueron pares y cuántos impares.
+
 Pueden emplear el operador ?%? en la condición de la estructura condicional:
+
 	if (valor%2==0)         //Si el if da verdadero luego es par.
