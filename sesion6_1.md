@@ -41,6 +41,14 @@ La ejecución de un bucle for sigue los siguientes pasos:
 
 while
 --
+Estructura del while:
+```bash
+while (condición) {
+  instrucción 1;
+  ...........
+  instrucción N;
+}
+```
 La ejecución de un bucle while sigue los siguientes pasos:
 
 1.      Se evalúa la condición.
@@ -52,12 +60,27 @@ do while
 Las instrucciones se ejecutan mientras la condición sea cierta.
 La condición se comprueba al final del bucle por lo que el bloque de instrucciones se ejecutarán al menos una vez. Esta es la diferencia fundamental con la instrucción while. Las instrucciones de un bucle while es posible que no se ejecuten si la condición inicialmente es falsa. 
 
+Estructura del do while:
+```bash
+do {
+  instrucción 1;
+  ...........
+  instrucción N;
+}while (condición)
+```
+
 La ejecución de un bucle do - while sigue los siguientes pasos:
 
 1.    Se ejecutan las instrucciones a partir de do{.
 2.    Se evalúa la condición.
 3. Si el resultado es false el programa sigue ejecutándose por la siguiente instrucción a continuación del while.
 4.    Si el resultado es true se vuelve al paso 1.
+
+Estructuras de control o Bucles anidados
+--
+Bucles anidados son aquellos que incluyen instrucciones for, while o do-while unas dentro de otras.
+Debemos tener en cuenta que las variables de control que utilicemos deben ser distintas.
+Los anidamientos de estructuras tienen que ser correctos, es decir, que una estructura anidada dentro de otra lo debe estar totalmente.
 
 Slides
 --
@@ -67,5 +90,7 @@ Slides
 Ejemplos
 --
 
-[Estructura secuencial](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
+[For](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
+[while](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
+[do while](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
 
