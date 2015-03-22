@@ -91,6 +91,10 @@ Ejemplos
 --
 
 [For](https://github.com/codificadas/Javaficadas/blob/master/For.md)
+
 [while](https://github.com/codificadas/Javaficadas/blob/master/while.md)
-[do while](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
+
+[do while](https://github.com/codificadas/Javaficadas/blob/master/dowhile.md)
+
+[Bucles anidados](https://github.com/codificadas/Javaficadas/blob/master/buclesanidados.md)
 
