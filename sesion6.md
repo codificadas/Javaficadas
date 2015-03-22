@@ -63,15 +63,6 @@ switch (expresión){
 }
 ```
 
-Iterativa o repetitiva
---
-
-- for
-
-- while
-
-- Do while
-
 Slides
 --
 
