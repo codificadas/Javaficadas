@@ -90,7 +90,7 @@ Slides
 Ejemplos
 --
 
-[For](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
-[while](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
+[For](https://github.com/codificadas/Javaficadas/blob/master/For.md)
+[while](https://github.com/codificadas/Javaficadas/blob/master/while.md)
 [do while](https://github.com/codificadas/Javaficadas/blob/master/EstructuraSecuencial.md)
 
