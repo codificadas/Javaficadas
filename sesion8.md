@@ -12,6 +12,8 @@ sintaxis para crear los arreglos:
 tipo nombre_arreglo [] = new tipo[n];  
 ```
 
+- Unidimencionales
+
 Ejemplo de un arreglo creado de nombre numeros, y tipo int, este arreglo se crea con un espacio de 5 elementos, recordemos que sus indices van desde 0 hasta 4.
 
 ```bash
@@ -60,9 +62,120 @@ public static void main(String[] args) {
 ```
 Para la manipulación de estos se hace por medio de un ciclo, el ciclo for es el más usado para recorrerlos, en la parte del condicional del ciclo vemos el uso del método length el cual lo usamos para saber el tamaño del arreglo. 
 
+```bash
+public void Ejem2(){
+        int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el numero a multiplicar
+        String ax="";//variable que acumula el mensaje
+ 
+        for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento           
+ 
+            n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el numero a multiplicar en la posicion "+(i+1)+": ")); 
+            arr1[i]=i*n;//asignacion del numero dado de la multiplicacion del anterior numero ingresado por el indice
+            ax+="En el indice "+i+" se almaceno el valor: "+arr1[i]+"n";//cuando se asigna el valor se acumulan los datos en el mensaje
+        }//fin ciclo
+        JOptionPane.showMessageDialog(null, ax);//cuando finaliza el ciclo se muestra el mensaje.
+    }
+```
 
-- Unidimencionales
+Muchas veces es necesario pasar como parámetros los arreglos. El ejemplo es de un arreglo con los números del 1 al 5, pasare este arreglo a un método el cual modificara sus valores por medio de una suma:
 
+```bash
+public void Ejem3(){
+         int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el numero a multiplicar
+        String ax="";//variable que acumula el mensaje
+ 
+        for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento           
+ 
+            n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el numero en la posicion "+(i+1)+": ")); 
+            arr1[i]=n;//asignacion del numero dado de la multiplicacion del anterior numero ingresado por el indice
+            ax+=arr1[i]+" ";
+        }//fin ciclo
+        JOptionPane.showMessageDialog(null, "Arreglo original: "+ax+
+                                            "nArreglo modificado: "+camArr(arr1));//cuando finaliza el ciclo se muestra el mensaje.
+    }
+```
+
+En el metodo camArr se puede apreciar la forma en la que se recibe un arreglo como parámetro, el nombre con el que se recibe es a criterio propio ya que esta sera una variable temporal (usada solo en este arreglo), al momento de invocarlo solo es necesario enviar como parámetro el nombre del arreglo.
+
+La mayoría veces el tamaño de un arreglo depende de las necesidades del usuario, es por eso que se puede definir el nombre del arreglo mucho antes de ser creado, esto ultimo se hace cuando el usuario asigna el tamaño requerido al arreglo con el cual se desea trabajar, un ejemplo es el siguiente:
+
+```bash
+public void Ejem4(){
+        int arr[], tam;//Declaracion variables del arreglo y el tamaño que tendra el arreglo
+ 
+        tam = Integer.parseInt(JOptionPane.showInputDialog(null, "De que tamaño desea el arreglo: "));//se ingresa el tamaño del arreglo        
+        arr = new int[tam];//se crea el arreglo con el tamaño deseado por el usuario
+ 
+        JOptionPane.showMessageDialog(null, "El tamaño del arreglo es de "+arr.length+" elementos....");//se muestra la cantidad de elemntos del arreglo
+    }
+```
+
+Ejercicio: Escribir el codigo y encontrar el error.
+```bash
+public class ArrayDeNombres {
+ 
+       public static void main(String arg[ ]) {
+             String[ ] nombre = new String[4];
+             nombre[0] = "Luis";
+             nombre[1] = "María";
+             nombre[2] = "Carlos";
+             nombre[3] = "Jose";
+             nombre[4] = "Ismael";   
+     }
+  }
+  ```
 - Bidimensional
 
-- Multidimensional
+Sintaxis
+
+Tipo_de_variable[ ][ ]   Nombre_del_array = new  Tipo_de_variable[dimensión1][dimensión2];
+La declaración de una matriz:
+```bash
+int[][]  matriz = new int[3][2];
+          O alternativamente
+   int[][]  matriz;
+   matriz = new int[3][2];
+```
+
+El número de elementos sería: 3 x 2 = 6, dónde 3 es el número de filas y 2 es el número de columnas.
+
+Ahora procedemos a cargar la matriz con valores:
+```bash
+matriz[0][0] = 1; matriz[0][1] = 2; matriz[1][0] = 3; matriz[1][1] = 4; matriz[2][0] = 5; matriz[2][1] = 6;
+```
+Hay que recordar que los elementos empiezan a numerarse por 0. Así, la esquina superior izquierda de la matriz será el elemento [0][0] y la esquina inferior derecha será el [2][1]. Hay que prestar atención a esto porque en otros lenguajes de programación la numeración puede empezar por 1 en vez de por 0.
+
+También se pueden cargar directamente los elementos, durante la declaración de la matriz de la siguiente manera:
+```bash
+int[][]  matriz = {{1,2},{3,4},{5,6}};
+```
+
+donde {1,2} corresponde a la fila 1, {3,4} a la fila 2 y {5,6} a la fila 3, y los números separados por coma dentro de cada fila, corresponden a las columnas. En este caso, los números (1, 3, 5) de cada una de las filas corresponden a la primera columna y los números (2, 4, 6) atañen a la  segunda columna.
+
+ 
+
+Para obtener el número de filas de la matriz, podemos recurrir a la propiedad “length” de los arrays, de la siguiente manera:
+```bash
+int filas = matriz.length;
+```
+ 
+
+Para el caso del número de columnas sería de la siguiente forma :
+```bash
+int columnas = matriz[0].length;
+```
+ 
+
+También Java nos permite la posibilidad de clonar una matriz, es decir, crear una matriz nueva a partir de otra matriz, siguiendo esta sintaxis:
+```bash
+String[][] nuevaMatriz = matriz.clone();
+```
+donde clone() es un método especial, que permite la clonación de arrays de cualquier dimensión en Java. De esta manera “nuevaMatriz” y “matriz” son 2 matrices distintas pero con los mismos valores.
+
+
+Ejercicio: 
+
+Queremos almacenar en una matriz el número de alumnos con el que cuenta una academia, ordenados en función del nivel y del idioma que se estudia. Tendremos 3 filas que representarán al Nivel básico, medio y de perfeccionamiento y 4 columnas en las que figurarán los idiomas (0 = Inglés, 1 = Francés, 2 = Alemán y 3 = Ruso). Se pide realizar la declaración de la matriz y asignarle unos valores de ejemplo a cada elemento.
+
+
+
