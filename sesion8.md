@@ -12,7 +12,7 @@ sintaxis para crear los arreglos:
 tipo nombre_arreglo [] = new tipo[n];  
 ```
 
-- Unidimencionales
+- **Unidimencionales**
 
 Ejemplo de un arreglo creado de nombre numeros, y tipo int, este arreglo se crea con un espacio de 5 elementos, recordemos que sus indices van desde 0 hasta 4.
 
@@ -60,7 +60,7 @@ public static void main(String[] args) {
     }
 }
 ```
-Para la manipulación de estos se hace por medio de un ciclo, el ciclo for es el más usado para recorrerlos, en la parte del condicional del ciclo vemos el uso del método length el cual lo usamos para saber el tamaño del arreglo. 
+Para la manipulación de estos se hace por medio de un ciclo, el ciclo **for** es el más usado para recorrerlos, en la parte del condicional del ciclo vemos el uso del método **length** el cual lo usamos para saber el tamaño del arreglo. 
 
 ```bash
 public void Ejem2(){
@@ -124,7 +124,7 @@ public class ArrayDeNombres {
      }
   }
   ```
-- Bidimensional
+- **Bidimensional**
 
 Sintaxis
 
@@ -154,7 +154,7 @@ donde {1,2} corresponde a la fila 1, {3,4} a la fila 2 y {5,6} a la fila 3, y lo
 
  
 
-Para obtener el número de filas de la matriz, podemos recurrir a la propiedad “length” de los arrays, de la siguiente manera:
+Para obtener el número de filas de la matriz, podemos recurrir a la propiedad **length** de los arrays, de la siguiente manera:
 ```bash
 int filas = matriz.length;
 ```
