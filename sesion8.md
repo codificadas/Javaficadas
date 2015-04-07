@@ -110,7 +110,7 @@ public void Ejem4(){
     }
 ```
 
-Ejercicio: Escribir el codigo y encontrar el error.
+**Ejercicio:** Escribir el codigo y encontrar el error.
 ```bash
 public class ArrayDeNombres {
  
@@ -173,7 +173,7 @@ String[][] nuevaMatriz = matriz.clone();
 donde clone() es un método especial, que permite la clonación de arrays de cualquier dimensión en Java. De esta manera “nuevaMatriz” y “matriz” son 2 matrices distintas pero con los mismos valores.
 
 
-Ejercicio: 
+**Ejercicio:**
 
 Queremos almacenar en una matriz el número de alumnos con el que cuenta una academia, ordenados en función del nivel y del idioma que se estudia. Tendremos 3 filas que representarán al Nivel básico, medio y de perfeccionamiento y 4 columnas en las que figurarán los idiomas (0 = Inglés, 1 = Francés, 2 = Alemán y 3 = Ruso). Se pide realizar la declaración de la matriz y asignarle unos valores de ejemplo a cada elemento.
 
