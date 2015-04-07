@@ -17,6 +17,8 @@ Sesión 6: [Estructuras de control](https://github.com/codificadas/Javaficadas/b
 
 Sesión 7: [Estructuras de control 2](https://github.com/codificadas/Javaficadas/blob/master/sesion7.md)
 
+Sesión 8: [Arreglos o Arrays](https://github.com/codificadas/Javaficadas/blob/master/sesion8.md)
+
 Ejemplo: [Tipos de Datos](https://github.com/codificadas/Javaficadas/blob/master/DataType.md)
 
 Ejemplo: [Casting Type](https://github.com/codificadas/Javaficadas/blob/master/CastingType.md)
