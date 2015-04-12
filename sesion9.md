@@ -93,3 +93,5 @@ pista 3.- Falta el método main, y que debo de hacer en él?.
 Modificar el metodo de insertar para que los datos se ingresen con un random.
 
 Agregar otro método para sumar los valores del arreglo con otro arreglo de la misma dimención.
+
+Otro ejemplo: [Casting Type](https://github.com/codificadas/Javaficadas/blob/master/operacionesArrays.md)
