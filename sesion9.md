@@ -90,6 +90,6 @@ pista 3.- Falta el método main, y que debo de hacer en él?.
 
 -Ejercicios:
 
-Modificar el metodo de insertar y para que los datos se ingresen con un random.
+Modificar el metodo de insertar para que los datos se ingresen con un random.
 
 Agregar otro método para sumar los valores de dos arreglos.
