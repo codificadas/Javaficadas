@@ -40,59 +40,61 @@ Podemos crear e instanciar en una misma linea, o por el contrario podemos declar
 Al momento de instanciar los arreglos estos se crean con sus valores predeterminados de cada tipo, así que se puede empezar a trabajar después de haber sido creados. 
 
 ```bash
-public static void main(String[] args) {
- 
-        ArrayJ o = new ArrayJ();//creación del objeto para invocar el método
- 
-        o.Ejem4();//invocación del método      
-        System.exit(0);//linea para asegurar la terminación inmediata de la aplicación
-    }
- 
-    public void Ejem1(){
+public void Ejem1(){
         int arr1 [] = new int[5];//arreglo de 5 elementos
-        String ax="";//variable que acumula el mensaje
- 
+        String msj="";//variable que acumula el mensaje
+
         for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento
             arr1[i]=i;//asignación del elemento
-            ax+="En el índice "+i+" se almaceno el valor: "+i+"n";//cuando se asigna el valor se acumulan los datos en el mensaje
+            msj+="En el índice "+i+" se almaceno el valor: "+i+" \n";//cuando se asigna el valor se acumulan los datos en el mensaje
         }//fin ciclo
-        JOptionPane.showMessageDialog(null, ax);//cuando finaliza el ciclo se muestra el mensaje.
+        JOptionPane.showMessageDialog(null, msj);//cuando finaliza el ciclo se muestra el mensaje.
     }
-}
+    
+    public static void main(String[] args) {
+
+        arreglo1 o = new arreglo1();//creación del objeto para invocar el método
+        o.Ejem1();//invocación del método 
+        
+        System.exit(0);//linea para asegurar la terminación inmediata de la aplicación
+    }
 ```
 Para la manipulación de estos se hace por medio de un ciclo, el ciclo **for** es el más usado para recorrerlos, en la parte del condicional del ciclo vemos el uso del método **length** el cual lo usamos para saber el tamaño del arreglo. 
 
 ```bash
 public void Ejem2(){
         int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el número a multiplicar
-        String ax="";//variable que acumula el mensaje
- 
+        String msj="";//variable que acumula el mensaje
+
         for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento           
- 
+
             n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el número a multiplicar en la posición "+(i+1)+": ")); 
             arr1[i]=i*n;//asignación del número dado de la multiplicación del anterior número ingresado por el índice
-            ax+="En el indice "+i+" se almaceno el valor: "+arr1[i]+"n";//cuando se asigna el valor se acumulan los datos en el mensaje
+            msj+="En el indice "+i+" se almaceno el valor: "+arr1[i]+" \n";//cuando se asigna el valor se acumulan los datos en el mensaje
         }//fin ciclo
-        JOptionPane.showMessageDialog(null, ax);//cuando finaliza el ciclo se muestra el mensaje.
+        JOptionPane.showMessageDialog(null, msj);//cuando finaliza el ciclo se muestra el mensaje.
     }
 ```
 
 Muchas veces es necesario pasar como parámetros los arreglos. El ejemplo es de un arreglo con los números del 1 al 5, pasare este arreglo a un método el cual modificara sus valores por medio de una suma:
 
 ```bash
-public void Ejem3(){
-         int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el número a multiplicar
-        String ax="";//variable que acumula el mensaje
- 
-        for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento           
- 
-            n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el número en la posición "+(i+1)+": ")); 
-            arr1[i]=n;//asignación del número dado de la multiplicación del anterior número ingresado por el índice
-            ax+=arr1[i]+" ";
-        }//fin ciclo
-        JOptionPane.showMessageDialog(null, "Arreglo original: "+ax+
-                                            "nArreglo modificado: "+camArr(arr1));//cuando finaliza el ciclo se muestra el mensaje.
-    }
+ public void Ejem3(){        
+        int lista[]={3,4,5};
+        // pasando arreglo como parametro
+        camArr(lista);
+        // desplegando 
+        for( int r=0; r<lista.length; r++)
+        System.out.println("lista["+r+"]="+lista[r]+'\n' );
+        
+ }
+    
+ public static void camArr(int vector[] )
+ {
+        // agregandole 10 a vector
+        for( int r=0; r<vector.length; r++)
+        vector[r]= vector[r] + 10;
+ }
 ```
 
 En el método camArr se puede apreciar la forma en la que se recibe un arreglo como parámetro, el nombre con el que se recibe es a criterio propio ya que esta sera una variable temporal (usada solo en este arreglo), al momento de invocarlo solo es necesario enviar como parámetro el nombre del arreglo.
@@ -110,7 +112,7 @@ public void Ejem4(){
     }
 ```
 
-**Ejercicio:** Escribir el codigo y encontrar el error.
+**Ejercicio 1:** Escribir el codigo y encontrar el error.
 ```bash
 public class ArrayDeNombres {
  
@@ -124,6 +126,7 @@ public class ArrayDeNombres {
      }
   }
   ```
+  **Ejercicio 2:** Tomar el ejercicio 4 asignarle valores al arreglo y mostrarlo.
 - **Bidimensional**
 
 Sintaxis
