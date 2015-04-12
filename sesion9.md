@@ -92,4 +92,4 @@ pista 3.- Falta el método main, y que debo de hacer en él?.
 
 Modificar el metodo de insertar para que los datos se ingresen con un random.
 
-Agregar otro método para sumar los valores de dos arreglos.
+Agregar otro método para sumar los valores del arreglo con otro arreglo de la misma dimención.
