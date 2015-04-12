@@ -42,10 +42,10 @@ Al momento de instanciar los arreglos estos se crean con sus valores predetermin
 ```bash
 public static void main(String[] args) {
  
-        ArrayJ o = new ArrayJ();//creacion del objeto para invocar el metodo
+        ArrayJ o = new ArrayJ();//creación del objeto para invocar el método
  
-        o.Ejem4();//invocacion del metodo      
-        System.exit(0);//linea para asegurar la terminacion inmediata de la aplicacion
+        o.Ejem4();//invocación del método      
+        System.exit(0);//linea para asegurar la terminación inmediata de la aplicación
     }
  
     public void Ejem1(){
@@ -53,8 +53,8 @@ public static void main(String[] args) {
         String ax="";//variable que acumula el mensaje
  
         for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento
-            arr1[i]=i;//asignacion del elemento
-            ax+="En el indice "+i+" se almaceno el valor: "+i+"n";//cuando se asigna el valor se acumulan los datos en el mensaje
+            arr1[i]=i;//asignación del elemento
+            ax+="En el índice "+i+" se almaceno el valor: "+i+"n";//cuando se asigna el valor se acumulan los datos en el mensaje
         }//fin ciclo
         JOptionPane.showMessageDialog(null, ax);//cuando finaliza el ciclo se muestra el mensaje.
     }
@@ -64,13 +64,13 @@ Para la manipulación de estos se hace por medio de un ciclo, el ciclo **for** e
 
 ```bash
 public void Ejem2(){
-        int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el numero a multiplicar
+        int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el número a multiplicar
         String ax="";//variable que acumula el mensaje
  
         for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento           
  
-            n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el numero a multiplicar en la posicion "+(i+1)+": ")); 
-            arr1[i]=i*n;//asignacion del numero dado de la multiplicacion del anterior numero ingresado por el indice
+            n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el número a multiplicar en la posición "+(i+1)+": ")); 
+            arr1[i]=i*n;//asignación del número dado de la multiplicación del anterior número ingresado por el índice
             ax+="En el indice "+i+" se almaceno el valor: "+arr1[i]+"n";//cuando se asigna el valor se acumulan los datos en el mensaje
         }//fin ciclo
         JOptionPane.showMessageDialog(null, ax);//cuando finaliza el ciclo se muestra el mensaje.
@@ -81,13 +81,13 @@ Muchas veces es necesario pasar como parámetros los arreglos. El ejemplo es de 
 
 ```bash
 public void Ejem3(){
-         int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el numero a multiplicar
+         int arr1 [] = new int[5], n;//arreglo de 5 elementos y variable que almacena el número a multiplicar
         String ax="";//variable que acumula el mensaje
  
         for(int i=0; i<arr1.length; i++){//ciclo para el recorrido del elemento           
  
-            n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el numero en la posicion "+(i+1)+": ")); 
-            arr1[i]=n;//asignacion del numero dado de la multiplicacion del anterior numero ingresado por el indice
+            n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el número en la posición "+(i+1)+": ")); 
+            arr1[i]=n;//asignación del número dado de la multiplicación del anterior número ingresado por el índice
             ax+=arr1[i]+" ";
         }//fin ciclo
         JOptionPane.showMessageDialog(null, "Arreglo original: "+ax+
@@ -95,13 +95,13 @@ public void Ejem3(){
     }
 ```
 
-En el metodo camArr se puede apreciar la forma en la que se recibe un arreglo como parámetro, el nombre con el que se recibe es a criterio propio ya que esta sera una variable temporal (usada solo en este arreglo), al momento de invocarlo solo es necesario enviar como parámetro el nombre del arreglo.
+En el método camArr se puede apreciar la forma en la que se recibe un arreglo como parámetro, el nombre con el que se recibe es a criterio propio ya que esta sera una variable temporal (usada solo en este arreglo), al momento de invocarlo solo es necesario enviar como parámetro el nombre del arreglo.
 
-La mayoría veces el tamaño de un arreglo depende de las necesidades del usuario, es por eso que se puede definir el nombre del arreglo mucho antes de ser creado, esto ultimo se hace cuando el usuario asigna el tamaño requerido al arreglo con el cual se desea trabajar, un ejemplo es el siguiente:
+La mayoría de veces el tamaño de un arreglo depende de las necesidades del usuario, es por eso que se puede definir el nombre del arreglo mucho antes de ser creado, esto último se hace cuando el usuario asigna el tamaño requerido al arreglo con el cual se desea trabajar, un ejemplo es el siguiente:
 
 ```bash
 public void Ejem4(){
-        int arr[], tam;//Declaracion variables del arreglo y el tamaño que tendra el arreglo
+        int arr[], tam;//Declaración variables del arreglo y el tamaño que tendra el arreglo
  
         tam = Integer.parseInt(JOptionPane.showInputDialog(null, "De que tamaño desea el arreglo: "));//se ingresa el tamaño del arreglo        
         arr = new int[tam];//se crea el arreglo con el tamaño deseado por el usuario
