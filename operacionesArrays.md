@@ -16,7 +16,7 @@ public class operacionesArrays {
 
     public static void main(String[] args) throws IOException
     {
-        //Creamos un objerto para obtener datos desde el teclado
+        //Creamos un objeto para obtener datos desde el teclado
         BufferedReader teclado = new BufferedReader(new InputStreamReader (System.in));
          
         String arreglo[];
@@ -26,7 +26,7 @@ public class operacionesArrays {
         String buscador;
         char opcion = 0;
          
-        System.out.print("Introduce el numero de datos a procesar: ");
+        System.out.print("Introduce el número de datos a procesar: ");
         n = Integer.parseInt(teclado.readLine());
         arreglo = new String [n];
          
@@ -49,12 +49,12 @@ public class operacionesArrays {
             System.out.println("i.- Invertir arreglo");
             System.out.println("x.- Salir");
             System.out.println("******************************");
-            System.out.print("Ingresa una opcion...  ");
+            System.out.print("Ingresa una opción...  ");
             opcion = (char)System.in.read();
             teclado.readLine();
             
             //Sentencia switch para elegir una de varias opciones
-            switch(opcion) //dependiendo de la opcion ingresada se ejecuta una sentencia de las varias opciones disponibles
+            switch(opcion) //dependiendo de la opción ingresada se ejecuta una sentencia de las varias opciones disponibles
             {
                 case 'a':                  
                     String nuevo;
@@ -110,7 +110,7 @@ public class operacionesArrays {
                     break;
                     
                 case 'e':
-                    System.out.println("\nVerificacion: \n");
+                    System.out.println("\nVerificación: \n");
                     for(i=0; i<arreglo.length; i++)
                     {
                         if(arreglo[i].equals(arreglo[i].toLowerCase()))
@@ -131,7 +131,7 @@ public class operacionesArrays {
                     }                 
                     break;
                 
-                case 'f':    //Si se ingresa la opcion "f" ejecuta esta sentencia
+                case 'f':    //Si se ingresa la opción "f" ejecuta esta sentencia
                     System.out.println();
                     System.out.print("Introduce el caracter a buscar: ");                 
                     buscador = teclado.readLine();                   
@@ -141,13 +141,13 @@ public class operacionesArrays {
                     {
                         if( arreglo[i].equals (buscador) )
                         {
-                            System.out.println("Buscando en posicion ["+i+"] = "+arreglo[i]+" <- Caracter ENCONTRADO!");
-                            //System.out.println("Buscando en posicion ["+i+"] = "+arreglo[i]+" = "+buscador+" <- Caracter ENCONTRADO!");
-                            //System.out.print("\nCaracter encontrado en la posicion ["+(i)+"] "); //Encuentra el caracter en la posicion
+                            System.out.println("Buscando en posición ["+i+"] = "+arreglo[i]+" <- Caracter ENCONTRADO!");
+                            //System.out.println("Buscando en posición ["+i+"] = "+arreglo[i]+" = "+buscador+" <- Caracter ENCONTRADO!");
+                            //System.out.print("\nCaracter encontrado en la posicion ["+(i)+"] "); //Encuentra el caracter en la posición
                         }
                         else
                         {
-                            System.out.println("Buscando en posicion ["+i+"] = "+arreglo[i]+" <- Caracter no encontrado");
+                            System.out.println("Buscando en posición ["+i+"] = "+arreglo[i]+" <- Caracter no encontrado");
                             //System.out.print("\nCaracter no encontrado en ["+i+"]");                    
                         }                     
                        }
@@ -156,11 +156,11 @@ public class operacionesArrays {
                      
                 case 'g':
                         String confirmar;
-                    System.out.print("\nHa elegido la opcion limpiar, esta seguro de que quiere hacerlo?\nFavor de confirmar si o no? ");
+                    System.out.print("\nHa elegido la opción limpiar, esta seguro de que quiere hacerlo?\nFavor de confirmar si o no? ");
                         confirmar = teclado.readLine();
                         
                         String eliminar = "si";
-                        //System.out.println("\nHa elegido la opcion limpiar, esta seguro de que quiere hacerlo?");
+                        //System.out.println("\nHa elegido la opción limpiar, esta seguro de que quiere hacerlo?");
                         //confirmar = teclado.readLine();
                         System.out.println();
                         if(eliminar.equals(confirmar))
@@ -192,7 +192,7 @@ public class operacionesArrays {
                     System.out.print("\nIntroduce el nuevo Elemento: ");                 
                     modifica = teclado.readLine();
  
-                    System.out.print("Introduce la posicion valida en el Arreglo.. de [0] hasta ["+(arreglo.length-1)+"] : ");
+                    System.out.print("Introduce la posición valida en el Arreglo.. de [0] hasta ["+(arreglo.length-1)+"] : ");
                     posicion = Integer.parseInt(teclado.readLine());
                     
                     System.out.println("\nEl elemento ha sido reemplazado y se ha agregado el nuevo elemento: \n");
@@ -220,12 +220,12 @@ public class operacionesArrays {
                     opcion = 'x';
                     break;
                      
-                default:    //Si el compilador no encuentra la opcion que se ingreso entonces se ejecuta esta sentencia (default)
-                    System.out.println("\nOpción incorrecta.. favor de insertar la opcion disponible en el Menu");
+                default:    //Si el compilador no encuentra la opcioón que se ingreso entonces se ejecuta esta sentencia (default)
+                    System.out.println("\nOpción incorrecta.. favor de insertar la opción disponible en el Menu");
                     break;
             }
         }
-        System.out.println("\nHa salido correctamente de la Aplicacion...");
+        System.out.println("\nHa salido correctamente de la Aplicación...");
     }
 }
     
