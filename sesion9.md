@@ -111,7 +111,7 @@ pista 3.- Falta el método main, y que debo de hacer en él?.
 
 Modificar el metodo de insertar para que los datos se ingresen con un random.
 
-Crear un metodo nuevo o modificar  el metodo de Modificar para actualizar todos los valores.
+Crear un método nuevo o editar el método de Modificar para actualizar todos los valores.
 
 Agregar otro método para sumar los valores del arreglo con otro arreglo de la misma dimención.
 
