@@ -216,7 +216,7 @@ public class operacionesArrays {
                     System.out.println();
                     break;
                 
-                case 'x':    //Si se ingresa la opcion "j" ejecuta esta sentencia
+                case 'x':    //Si se ingresa la opcion "x" ejecuta esta sentencia
                     opcion = 'x';
                     break;
                      
