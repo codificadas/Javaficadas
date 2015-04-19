@@ -19,6 +19,8 @@ Sesión 7: [Estructuras de control 2](https://github.com/codificadas/Javaficadas
 
 Sesión 8: [Arreglos o Arrays](https://github.com/codificadas/Javaficadas/blob/master/sesion8.md)
 
+Sesión 9: [Operaciones con Arreglos](https://github.com/codificadas/Javaficadas/blob/master/sesion9.md)
+
 Ejemplo: [Tipos de Datos](https://github.com/codificadas/Javaficadas/blob/master/DataType.md)
 
 Ejemplo: [Casting Type](https://github.com/codificadas/Javaficadas/blob/master/CastingType.md)
