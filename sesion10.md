@@ -36,7 +36,7 @@ class Paloma extends Animal{
 
 Conociendo el concepto de clases y objetos vamos a asumir que necesitamos construir una aplicación sobre los diferentes tipos de vehículos existentes, pero para esto necesitamos clasificarlos, en este caso trabajaremos con vehículos acuáticos y aéreos. Cuál es el factor común de estos 2 tipos?
 
-R.- Ambos son vehículos. Entonces nuestra lase principal de nuestro sistema sera la clase Vehiculo.
+R.- Ambos son vehículos. Entonces nuestra clase principal de nuestro sistema sera la clase Vehiculo.
 
 Ahora bien  sabemos que un barco o un avión son vehículos, pero ambos tienen características propias que los diferencian, entonces tenemos que pensar de forma general para poder definir un correcto árbol de herencia, por eso podemos decir que un barco además de descender de un vehículo, también desciende del tipo de vehículos Acuáticos los cuales tienen un conjunto de características comunes para cualquier vehículo acuático (sin olvidar que cada vehículo acuático puede tener sus características propias) y de la misma forma un avión desciende del tipo de vehículos Aéreos, tenemos así nuestras clases Acuatico y Aereo que a su vez descienden de la clase Vehiculo, y son padres de cualquier vehículo en su jerarquía.
 
