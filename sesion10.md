@@ -205,4 +205,5 @@ public class Principal {
 
 Como vemos podemos acceder a los diferentes métodos desde otras clases, y si nos fijamos bien podemos identificar que siempre usamos la misma propiedad nombreVehiculo de la clase Vehiculo, lo hicimos usando objetos diferentes por tal razón el valor de la propiedad depende del asignado por cada objeto
 
-
+**Ejercicios:**
+https://github.com/codificadas/Javaficadas/blob/master/herencia_ejercicios.md
