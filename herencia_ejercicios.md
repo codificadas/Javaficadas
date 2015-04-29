@@ -1,5 +1,5 @@
 
-EJERCICIO 1
+**EJERCICIO 1**
 
 Simular el comportamiento que tendrían los diferentes integrantes de la selección de futbol, se tienen definidas tres clases que van a representaran a los objetos Futbolista, Entrenador y Masajista 
 Ver imagen: (http://jarroba.com/wp-content/uploads/2014/04/NoHerencia_jarroba.jpg)
@@ -10,7 +10,7 @@ Ver imagen: (http://jarroba.com/wp-content/uploads/2014/04/NoHerencia_jarroba.jp
 
 3.- Crar la clase principal y crear un objeto por cada tipo de integrante.
 
-EJERCICIO 2
+**EJERCICIO 2**
 
 Se plantea desarrollar un programa Java que permita la gestión de una empresa agroalimentaria que trabaja con tres tipos de productos: productos frescos, productos refrigerados y productos congelados. Todos los productos llevan esta información común: fecha de caducidad y número de lote. A su vez, cada tipo de producto lleva alguna información específica. Los productos frescos deben llevar la fecha de envasado y el país de origen. Los productos refrigerados deben llevar el código del organismo de supervisión alimentaria, la fecha de envasado, la temperatura de mantenimiento recomendada y el país de origen. Los productos congelados deben llevar la fecha de envasado, el país de origen y la temperatura de mantenimiento recomendada.
 
