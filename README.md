@@ -21,6 +21,10 @@ Sesión 8: [Arreglos o Arrays](https://github.com/codificadas/Javaficadas/blob/m
 
 Sesión 9: [Operaciones con Arreglos](https://github.com/codificadas/Javaficadas/blob/master/sesion9.md)
 
+Sesión 10: [Herencia](https://github.com/codificadas/Javaficadas/blob/master/sesion10.md)
+
+Sesión 11: [Abstracción](https://github.com/codificadas/Javaficadas/blob/master/sesion11.md)
+
 Ejemplo: [Tipos de Datos](https://github.com/codificadas/Javaficadas/blob/master/DataType.md)
 
 Ejemplo: [Casting Type](https://github.com/codificadas/Javaficadas/blob/master/CastingType.md)
